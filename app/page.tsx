@@ -750,10 +750,12 @@ export default function Home() {
           </p>
           <div className="relative inline-block group">
             <div className="absolute -inset-1 bg-gradient-to-r from-cyan-600 to-blue-500 rounded-lg blur-lg opacity-75 group-hover:opacity-100 transition duration-500 group-hover:duration-200 animate-pulse"></div>
-            <Button className="relative px-8 py-6 bg-black border border-cyan-700 rounded-lg text-lg group-hover:border-cyan-400 transition-colors duration-300">
-              <span className="relative z-10 group-hover:text-cyan-300 transition-colors duration-300">Vanish Now</span>
-              <Download className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform duration-300" />
-            </Button>
+            <a href="https://drive.google.com/file/d/1S2_4GKnHoBmQNapE2LPxx3yMyzU-wQRP/view?usp=share_link" target="_blank" rel="noopener noreferrer">
+  <Button className="relative px-8 py-6 bg-black border border-cyan-700 rounded-lg text-lg group-hover:border-cyan-400 transition-colors duration-300">
+    <span className="relative z-10 group-hover:text-cyan-300 transition-colors duration-300">Vanish Now</span>
+    <Download className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform duration-300" />
+  </Button>
+</a>  
           </div>
         </div>
       </section>
