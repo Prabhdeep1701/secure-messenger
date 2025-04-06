@@ -769,17 +769,7 @@ export default function Home() {
               </div>
               <span className="font-bold text-xl tracking-wider">WRAITH</span>
             </div>
-            <div className="flex gap-8 mb-6 md:mb-0">
-              <Link href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
-                Security
-              </Link>
-              <Link href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
-                Canary
-              </Link>
-              <Link href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
-                PGP Keys
-              </Link>
-            </div>
+            
             <div className="text-gray-500 font-mono text-sm">
               <span className="text-cyan-600">~$</span> WRAITH_v3.0.2 {new Date().getFullYear()}
             </div>
