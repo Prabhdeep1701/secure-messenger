@@ -455,7 +455,7 @@ export default function Home() {
           </GlitchText>
         </div>
         <div className="hidden md:flex items-center gap-8">
-          {["features", "security", "download", "about"].map((item) => (
+          {["features", "security", "download"].map((item) => (
             <Link
               key={item}
               href={`#${item}`}
