@@ -469,13 +469,7 @@ export default function Home() {
             </Link>
           ))}
         </div>
-        <Button
-          variant="outline"
-          className="border-cyan-700 text-cyan-400 hover:bg-cyan-950/30 hover:text-cyan-300 relative group overflow-hidden"
-        >
-          <span className="relative z-10">ACCESS</span>
-          <span className="absolute inset-0 w-0 bg-gradient-to-r from-cyan-900/40 to-blue-900/40 transition-all duration-300 group-hover:w-full"></span>
-        </Button>
+        
       </nav>
 
       {/* Hero Section */}
